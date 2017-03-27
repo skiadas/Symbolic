@@ -1,0 +1,30 @@
+{
+  "name": "symbolic",
+  "version": "0.0.1",
+  "description": "Symbolic Expression manipulator.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter=progress --recursive",
+    "lint": "eslint .",
+    "parser": "jison -o parser.js symbolic_lang.jison"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skiadas/Symbolic.git"
+  },
+  "keywords": [
+    "parser", "symbolic algebra"
+  ],
+  "author": {
+    "name": "Charilaos Skiadas",
+    "url": "https://github.com/skiadas/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skiadas/Symbolic/issues"
+  },
+  "homepage": "https://github.com/skiadas/Symbolic",
+  "devDependencies": {
+    "chai": "*"
+  }
+}
